@@ -1,0 +1,13 @@
+/* Define custom color */
+:root {
+  --mm-yellow: #EEBF63;
+  --mm-blue: #90C0E8;
+  --mm-green: #6FC2C5;
+  --mm-yellow-dark: #CD921E;
+  --mm-blue-dark: #486074;
+  --mm-green-dark: #386163;
+  --mm-dark: #1C1C1C;
+  --mm-gray-dark: #2F2F2F;
+  --mm-gray-100: #F1F1F1;
+  --mm-gray-200: #E1E1E1;
+}
