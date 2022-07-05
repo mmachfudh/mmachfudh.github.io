@@ -63,6 +63,13 @@ h1,h2,h3,h4,h5,h6,p {
   margin: 0;
 }
 
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2em;
+}
+
 body {
   background: var(--mm-dark);
   color: var(--mm-gray-100);
@@ -140,7 +147,7 @@ main.container {
   position: absolute;
   height: 5px;
   left: 0px;
-  top: 38px;
+  top: 50px;
   background: var(--mm-green);
   border-radius: 50%;
 }
@@ -148,6 +155,9 @@ main.container {
 /* .text-desc {
   font-size: 0.80em;
 } */
+.header-left-inner > .text-desc {
+  margin-top: 25px;
+}
 .header-follow-me {
   display: flex;
   align-items: center;
@@ -182,6 +192,12 @@ main.container {
   border-radius: 0.4em;
   cursor: pointer;
   position: relative;
+  height: fit-content;
+}
+
+.btn-white {
+  color: var(--mm-gray-100);
+  border: 1px solid var(--mm-gray-100);
 }
 
 .btn > span {
@@ -217,15 +233,43 @@ main.container {
   -o-transition: 0.3s;
 }
 
-
 .btn:hover:after {
   width: 100%;
 }
+
+.btn.btn-white {
+  background-color: unset;
+  border-color: var(--mm-gray-100);
+  color: var(--mm-gray-100);
+  margin-right: 20px;
+}
+
+.btn.btn-white span{
+  color: var(--mm-gray-100) !important;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.btn.active.btn-white span,
+.btn.btn-white:hover span {
+  color: var(--mm-dark) !important;
+}
+
+.btn.btn-white::after {
+  background-color: var(--mm-gray-100);
+}
+
+.btn.active.btn-white::after {
+  width: 100%;
+  left: unset;
+  right: 0;
+}
+
 .btn.active:after {
   width: 100%;
   left: unset;
   right: 0;
 }
+
 .btn.active:hover:after {
   width: 0;
 }
@@ -324,6 +368,7 @@ aside {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+  align-items: center;
 }
 
 .rp-content {
@@ -354,4 +399,48 @@ aside {
 .btn-action img {
   width: 17px;
   margin-right: 8px;
+}
+
+#why-hire-me {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.whm-content {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.whm-item {
+  width: 23%;
+}
+.whm-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.whm-item-content h3 {
+  margin-top: 20px;
+}
+.whm-item-content p {
+  margin-top: 10px;
+}
+
+#interested-working-with-me {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: var(--mm-yellow-dark);
+  border-radius: 15px;
+  padding: 40px 70px;
+  display: flex;
+}
+.iwm-left {
+  flex: 1;
+}
+.iwm-right {
+  flex: 1;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  justify-content: end;
 }
