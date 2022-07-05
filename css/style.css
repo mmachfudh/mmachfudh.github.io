@@ -59,6 +59,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
 body {
   background: var(--mm-dark);
   color: var(--mm-gray-100);
@@ -141,9 +145,9 @@ main.container {
   border-radius: 50%;
 }
 
-.text-desc {
+/* .text-desc {
   font-size: 0.80em;
-}
+} */
 .header-follow-me {
   display: flex;
   align-items: center;
@@ -244,4 +248,110 @@ main.container {
 .header-right-inner img:first-child {
   right: 40px;
   top: -10px;
+}
+
+aside {
+  margin-top: 130px;
+}
+
+.review-portfolio {
+  background-color: var(--mm-gray-dark);
+  border-radius: 25px;
+  display: flex;
+  padding: 40px;
+}
+
+.review-portfolio img {
+  width: 100%;
+}
+
+.review-portfolio .review-left{
+  flex: 2;
+}
+.review-portfolio .review-right{
+  flex: 3;
+  padding-left: 30px;
+}
+
+.review-portfolio .review-left img {
+  border-radius: 25px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-right-header {
+  display: flex;
+}
+.prh-left,
+.prh-right {
+  flex: 1;
+}
+
+.prh-right h6,
+.prh-left h6 {
+  font-size: 3em;
+  margin: 0;
+}
+.prh-left h6 span {
+  color: var(--mm-green);
+}
+.review-right-content p {
+  margin: 20px 0;
+}
+.prh-right img,
+.prh-right h6 {
+  display: inline-block;
+}
+.prh-right img{
+  height: 20px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.review-star {
+  display: flex;
+  align-items: center;
+}
+
+.review-right-content {
+  margin-top: 50px;
+}
+
+#recent-projects {
+  margin-top: 50px;
+}
+.rp-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.rp-content {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.rp-item > img {
+  width: 100%;
+}
+.rp-item {
+  width: 48.5%;
+}
+.rp-item-content h3 {
+  margin-top: 10px;
+}
+.rp-item-actions {
+  display: flex;
+  margin-top: 5px;
+}
+
+.btn-action {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.btn-action img {
+  width: 17px;
+  margin-right: 8px;
 }
