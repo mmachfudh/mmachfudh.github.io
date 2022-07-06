@@ -2,6 +2,8 @@ let btnSlider = document.querySelectorAll(".dot-slide")
 let itemSlider = document.querySelectorAll(".tbc-items")
 let navItem = document.querySelectorAll(".nav-item")
 let backToTop = document.querySelector(".back-to-top a")
+let navCollapse = document.querySelector(".humberger")
+let navbar = document.querySelector("nav")
 
 btnSlider.forEach(btn => {
   btn.addEventListener('click', function (event) {
@@ -37,4 +39,12 @@ backToTop.addEventListener('click', function (event) {
   event.preventDefault();
   let target = this.getAttribute("href")
   scrollToView(document.querySelector(target))
+})
+
+navCollapse.addEventListener('click', function (event) {
+  if(navbar.className == "collapse"){
+    navbar.className = ""
+  }else{
+    navbar.className = "collapse"
+  }
 })
