@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mochammad Machfudh</title>
-  <link rel="stylesheet" href="css/style.css?v=1.1">
+  <link rel="stylesheet" href="css/style.css?v=1.2">
 </head>
 <body>
-  <header class="container">
+  <header class="container" id="header">
     <nav>
       <div class="nav-left">
         <div class="brand">
@@ -28,7 +28,7 @@
       <div class="header-left">
         <div class="header-left-inner">
           <p>Hey!</p>
-          <h2>I'm <span class="c-yellow">Machfudh</span> an <span class="green-underline">Frontend Developer</span></h2>
+          <h2>I'm <span class="c-yellow">Mochammad Machfudh</span> an Frontend Developer</h2>
           <p class="text-desc">UX Designer based in Jakarta, Indonesia.
             I am designing with a minimal and beautiful design in mind.</p>
           <div class="header-follow-me">
@@ -61,126 +61,318 @@
     </section>
   </header>
 
-  <main class="container">
-    <aside>
-      <div class="review-portfolio">
-        <div class="review-left">
-          <img src="/img/me.jpg" alt="">
-        </div>
-        <div class="review-right">
-          <div class="review-right-header">
-            <div class="prh-left">
-              <h6>120<span>+</span> </h6>
-              <p>Completed Project</p>
-            </div>
-            <div class="prh-right">
-              <div class="review-star">
-                <h6>A+</h6>
-                <img src="/img/Rating.png" alt="">
+  <main>
+    <div id="content" class="container">
+      <aside>
+        <div class="review-portfolio">
+          <div class="review-left">
+            <img src="/img/me.jpg" alt="">
+          </div>
+          <div class="review-right">
+            <div class="review-right-header">
+              <div class="prh-left">
+                <h6>120<span>+</span> </h6>
+                <p>Completed Project</p>
               </div>
-              <p>Positive Review's</p>
+              <div class="prh-right">
+                <div class="review-star">
+                  <h6>A+</h6>
+                  <img src="/img/Rating.png" alt="">
+                </div>
+                <p>Positive Review's</p>
+              </div>
+            </div>
+            <div class="review-right-content">
+              <h2>Glad to Help You!</h2>
+              <p>As a full-service digital designer, I work closely with my clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
+              <p>As a full-service digital designer, I work closely with my clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
             </div>
           </div>
-          <div class="review-right-content">
-            <h2>Glad to Help You!</h2>
-            <p>As a full-service digital designer, I work closely with my clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
-            <p>As a full-service digital designer, I work closely with my clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
+        </div>
+      </aside>
+  
+      <section id="recent-projects">
+        <div class="rp-header">
+          <h2>Recent Projects</h2>
+          <button class="btn active"><span>View More</span></button>
+        </div>
+        <div class="rp-content">
+          <article class="rp-item">
+            <img src="/img/recent-projects/project-1.png" alt="">
+            <div class="rp-item-content">
+              <h3>UI Portfolio</h3>
+              <div class="rp-item-actions">
+                <div class="btn-action">
+                  <img src="/img/layers.png" alt="">
+                  <p>View Study Case</p>
+                </div>
+                <div class="btn-action">
+                  <img src="/img/show.png" alt="">
+                  <p>Live Preview</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="rp-item">
+            <img src="/img/recent-projects/project-2.png" alt="">
+            <div class="rp-item-content">
+              <h3>UI Portfolio</h3>
+              <div class="rp-item-actions">
+                <div class="btn-action">
+                  <img src="/img/layers.png" alt="">
+                  <p>View Study Case</p>
+                </div>
+                <div class="btn-action">
+                  <img src="/img/show.png" alt="">
+                  <p>Live Preview</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+  
+      <section id="why-hire-me">
+        <div class="whm-header">
+          <h2>Why Hire Me?</h2>
+        </div>
+        <div class="whm-content">
+          <article class="whm-item">
+            <img src="/img/me.jpg" alt="">
+            <div class="whm-item-content">
+              <h3>Commonucative</h3>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </div>
+          </article>
+          <article class="whm-item">
+            <img src="/img/me.jpg" alt="">
+            <div class="whm-item-content">
+              <h3>Commonucative</h3>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </div>
+          </article>
+          <article class="whm-item">
+            <img src="/img/me.jpg" alt="">
+            <div class="whm-item-content">
+              <h3>Commonucative</h3>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </div>
+          </article>
+          <article class="whm-item">
+            <img src="/img/me.jpg" alt="">
+            <div class="whm-item-content">
+              <h3>Commonucative</h3>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+  
+      <section id="interested-working-with-me">
+        <div class="iwm-left">
+          <h2>Interested working<br> with me?</h2>
+        </div>
+        <div class="iwm-right">
+          <div class="iwm-right-inner">
+            <button class="btn active btn-white"><span><img src="/img/mail-black.png" alt="">Email Me</span></button>
+            <button class="btn btn-white"><span>See More Project</span></button>
           </div>
         </div>
-      </div>
-    </aside>
+      </section>
+    </div>
 
-    <section id="recent-projects">
-      <div class="rp-header">
-        <h2>Recent Projects</h2>
-        <button class="btn active"><span>View More</span></button>
-      </div>
-      <div class="rp-content">
-        <div class="rp-item">
-          <img src="/img/recent-projects/project-1.png" alt="">
-          <div class="rp-item-content">
-            <h3>UI Portfolio</h3>
-            <div class="rp-item-actions">
-              <div class="btn-action">
-                <img src="/img/layers.png" alt="">
-                <p>View Study Case</p>
+    <section id="testimonial-by-client">
+      <div class="tbc-inner container">
+        <h2>We Are Loved By Users <br> And Clients Worldwide</h2>
+        <div class="tbc-content">
+          <div class="tbc-items active" id="tbc-1">
+            <div class="tbc-item">
+              <p>One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
               </div>
-              <div class="btn-action">
-                <img src="/img/show.png" alt="">
-                <p>Live Preview</p>
+            </div>
+            <div class="tbc-item">
+              <p>It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tbc-items" id="tbc-2">
+            <div class="tbc-item">
+              <p>Yooo One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tbc-item">
+              <p>It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tbc-items" id="tbc-3">
+            <div class="tbc-item">
+              <p>Yooo One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tbc-item">
+              <p>It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tbc-items" id="tbc-4">
+            <div class="tbc-item">
+              <p>Yooo One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tbc-item">
+              <p>It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+              <div class="tbc-item-content">
+                <div class="tbc-user">
+                  <div class="tbc-user-image">
+                    <img src="/img/me.jpg" alt="">
+                  </div>
+                  <div class="tbc-user-name">
+                    <h5>Ronald Richards</h5>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="tbc-user-rating">
+                  <img src="/img/Rating.png" alt="">
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="rp-item">
-          <img src="/img/recent-projects/project-2.png" alt="">
-          <div class="rp-item-content">
-            <h3>UI Portfolio</h3>
-            <div class="rp-item-actions">
-              <div class="btn-action">
-                <img src="/img/layers.png" alt="">
-                <p>View Study Case</p>
-              </div>
-              <div class="btn-action">
-                <img src="/img/show.png" alt="">
-                <p>Live Preview</p>
-              </div>
-            </div>
+        <div class="tbc-slide-btns">
+          <div class="tbc-slide-btns-inner">
+            <div class="dot-slide active" data-target="tbc-1"></div>
+            <div class="dot-slide" data-target="tbc-2"></div>
+            <div class="dot-slide" data-target="tbc-3"></div>
+            <div class="dot-slide" data-target="tbc-4"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="why-hire-me">
-      <div class="whm-header">
-        <h2>Why Hire Me?</h2>
-      </div>
-      <div class="whm-content">
-        <div class="whm-item">
-          <img src="/img/me.jpg" alt="">
-          <div class="whm-item-content">
-            <h3>Commonucative</h3>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-          </div>
-        </div>
-        <div class="whm-item">
-          <img src="/img/me.jpg" alt="">
-          <div class="whm-item-content">
-            <h3>Commonucative</h3>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-          </div>
-        </div>
-        <div class="whm-item">
-          <img src="/img/me.jpg" alt="">
-          <div class="whm-item-content">
-            <h3>Commonucative</h3>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-          </div>
-        </div>
-        <div class="whm-item">
-          <img src="/img/me.jpg" alt="">
-          <div class="whm-item-content">
-            <h3>Commonucative</h3>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="interested-working-with-me">
-      <div class="iwm-left">
-        <h2>Interested working<br> with me?</h2>
-      </div>
-      <div class="iwm-right">
-        <div class="iwm-right-inner">
-          <button class="btn active btn-white"><span><img src="/img/mail-black.png" alt="">Email Me</span></button>
-          <button class="btn btn-white"><span>See More Project</span></button>
-        </div>
-      </div>
-    </section>
   </main>
 
-  <footer class="container"></footer>
+  <footer class="container">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <h3>Let's Connect</h3>
+      </div>
+      <div class="footer-center">
+        <div class="footer-medsos">
+          <a href="#">
+            <img src="/img/github.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/img/linkedin.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/img/instagram.png" alt="">
+          </a>
+          <a href="#">
+            <img src="/img/whatsapp.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="back-to-top">
+          <a href="#header">
+            Back To Top <img src="/img/short_up.png" alt="">
+          </a>
+        </div> 
+      </div>
+    </div>
+  </footer>
   
   <script src="js/main.js"></script>
 </body>
